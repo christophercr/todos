@@ -17,8 +17,8 @@ This project has been adapted from the AngularJS TodoMVC example for learning pu
 First of all, make sure that you have installed NodeJS & npm: https://nodejs.org/en
 
 Then you can get this project in 2 ways:
-* clone this repository: `git clone https://github.com/christophercr/angularjs-todos.git`
-* download a zip: https://github.com/christophercr/angularjs-todos/archive/master.zip
+* clone this repository: `git clone https://github.com/christophercr/todos.git`
+* download a zip: https://github.com/christophercr/todos/archive/master.zip
 
 Now you can download all the necessary dependencies using the setup script: `npm install`.
 
