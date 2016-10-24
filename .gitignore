@@ -1,3 +1,6 @@
+# Reports directory
+reports/
+
 # Logs
 ./logs/
 *.log
