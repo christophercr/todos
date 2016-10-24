@@ -1,5 +1,5 @@
 {
-  "name": "angularjs-demo",
+  "name": "angularjs-todos",
   "version": "0.0.1",
   "description": "Demo app for Angular JS training",
   "main": "gruntfile.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/christophercr/"
+    "url": "https://github.com/christophercr/todos"
   },
   "keywords": [
     "angular"
@@ -21,9 +21,9 @@
   "author": "Christopher Cortes",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/"
+    "url": "https://github.com/christophercr/todos"
   },
-  "homepage": "https://github.com/",
+  "homepage": "https://github.com/christophercr",
   "dependencies": {
     "angular": "1.5.8"
   },
@@ -42,7 +42,7 @@
     "grunt-contrib-less": "~1.4.0",
     "grunt-contrib-uglify": "~2.0.0",
     "grunt-contrib-watch": "~1.0.0",
-    "grunt-express-server": "^0.5.3",
+    "grunt-express-server": "~0.5.3",
     "grunt-jscs": "~3.0.1",
     "grunt-karma": "~2.0.0",
     "grunt-parallel": "~0.5.1",
@@ -53,11 +53,12 @@
     "karma-jasmine": "1.0.2",
     "karma-junit-reporter": "1.1.0",
     "karma-mocha-reporter": "2.2.0",
+    "karma-phantomjs-launcher": "~1.0.2",
     "matchdep": "~1.0.1",
     "morgan": "~1.7.0",
     "serve-static": "~1.11.1",
     "sinon": "1.17.6",
-    "todomvc-common": "^1.0.0",
-    "todomvc-app-css": "^1.0.1"
+    "todomvc-app-css": "~1.0.1",
+    "todomvc-common": "~1.0.0"
   }
 }
