@@ -1,0 +1,14 @@
+/* style definition here */
+
+.row {
+	display: block;
+	width: 400px;
+}
+
+.invalid {
+	color: red;
+}
+
+.valid {
+	color: green;
+}
