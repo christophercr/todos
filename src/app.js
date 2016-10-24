@@ -1,6 +1,6 @@
 /*global FakeRest, sinon */
 
-(function() {
+(function () {
     'use strict';
 
     var appModule = angular.module('app', []);
@@ -10,7 +10,7 @@
         controller: 'AppCtrl'
     });
 
-    appModule.run(['$http', '$log', function($http, $log) {
+    appModule.run(['$http', '$log', function ($http, $log) {
         $log.debug('Application running');
 
         $http.get('api/data').then(
@@ -34,9 +34,9 @@
 
                 sinonServer.xhr.useFilters = true;
 
-                skippedUrls.forEach(function(skippedUrl) {
+                skippedUrls.forEach(function (skippedUrl) {
 
-                    sinonServer.xhr.addFilter(function(method, url) {
+                    sinonServer.xhr.addFilter(function (method, url) {
                         //whenever this returns true the request will NOT be faked
                         if (url.search(skippedUrl) >= 0) {
                             $log.log('FakeRest server skipping request: ' + url);
